@@ -1,13 +1,27 @@
 <?php
 <?php
 $txt = "Hallo en Welkom!";
-$x = 0;
-$y = 0;
+$score = 0;
 
-$txt = "Stéphano";
+$naam = "Stéphano";
+$name = "Mijn naam is $naam";
 
-echo $x;
-echo "<br>";
+$_Hello = array("hallo", "hallo2");
+
+$leeftijd=19;
+$regelTekst1="Mijn leeftijd is $leeftijd";
+$regelTekst2='Mijn leeftijd is $leeftijd';
+
+$melk = 8 euro;
+$melk_prijs="Melk prijs is $melk"
+
+
+
+
 echo "Hallo en Welkom!";
-echo "Stéphano"
+echo $score;
+echo $naam;
+echo $_Hello
+echo $regelTekst1;
+echo $regelTekst2;
 ?>
