@@ -32,8 +32,40 @@ $x = false;
 
 echo $x
 
-$voornaam = "Tom";
+$voornaam = "Stéphano";
 echo gettype($voornaam);
+
+//string
+
+$stringy = 10.365;
+var_dump($stringx);
+
+//float
+
+$float = 10.365;
+var_dump($float);
+
+//boolean
+
+$treu = true;
+$false = false;
+
+//null
+$null = "Hello world!";
+$null = null;
+var_dump($null);
+
+//voornaam
+$voornaam = "Stéphano";
+$leeftijd = 19;
+echo "Jouw naam is $voornaam en je bent $leeftijd jaar oud.";
+
+//ul
+$voornaam1 = "Kuga";
+$voornaam2 = "Kerim";
+$voornaam3 = "Dillon";
+echo "<li>$voornaam1</li><li>$voornaam2</li><li>$voornaam3</li>";
+
 
 
 ?>
