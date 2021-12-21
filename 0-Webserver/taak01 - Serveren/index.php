@@ -66,6 +66,34 @@ $voornaam2 = "Kerim";
 $voornaam3 = "Dillon";
 echo "<li>$voornaam1</li><li>$voornaam2</li><li>$voornaam3</li>";
 
+$voornaam = "Stéphano";
+$leeftijd = 19;
+echo "Jouw naam is " . $voornaam . " en je bent " . $leeftijd . " jaar oud.";
 
+//li
+$item1 .= "<li>Item 1</li>";
+$item2 .= "<li>Item 2</li>";
+$item3 .= "<li>Item 3</li>";
 
+echo = $item1
+echo = $item2
+echo = $item3
+
+//var_dump
+$voornaam = "Tom";
+var_dump($voornaam);
+
+//Array viarabele
+$myMovies = array("Spderman", "Batman", "The Joker");
+
+//array waarde wijzigen
+$myDogNames =  ['Shara', 'Snoopy', 'Bob'];
+
+ //maar je kunt ook dit doen:
+$myDogNames[0] =  'Shara';
+$myNamDoges[1] =  'Snoopy';
+$myDogNames[2] =  'Bob';
+
+$myDogNames =  ['Shara', 'Snoopy', 'Bob'];
+$myDogNames[1] = '';
 ?>
