@@ -21,7 +21,7 @@ Een voorbeeld van laag naar hoog sortering:
 
 Een voorbeeld van hoog naar laag sortering:
 
-```php
+```php 
     $coders =  ['torvalds', 'gates', 'wozniak', 'bos'];
     arsort($coders);
 
