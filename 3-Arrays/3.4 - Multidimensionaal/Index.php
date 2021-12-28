@@ -9,4 +9,7 @@ echo $ABCD [a][b][c][d];
 print_r($abcGetallen)
 echo $Getallen [a56, c90]
 
+//of misschien
+echo $Getallen [0][2][3]
+
 ?>
