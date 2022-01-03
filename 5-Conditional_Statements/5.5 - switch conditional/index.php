@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+    <?php
     $score = 7;
 
     switch($score) {
@@ -24,5 +25,6 @@
     break;
     default:
     echo "Nog even oefenen dan haal je vast alle punten!";
+    ?>
 </body>
 </html>

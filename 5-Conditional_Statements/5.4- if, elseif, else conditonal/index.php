@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+    <?php
     $prod_besteld = 12;
 
     if($prod_besteld < 10) {
@@ -16,6 +17,6 @@
     } else {
     $prijs = 1.00;
     }
-    
+    ?>
 </body>
 </html>
