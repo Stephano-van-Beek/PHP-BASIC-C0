@@ -12,10 +12,10 @@
 
 $score = $score + 10;
 $getal1 = 10;
-echo $getal1 +=; 
-echo $getal1 -=; 
-echo $getal1 /=; 
-echo $getal1 *=; 
+echo $getal1 += 
+echo $getal1 -= 
+echo $getal1 /=
+echo $getal1 *=
 
 ?>
 

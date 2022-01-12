@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <?php include 'includes/functions.php';?>
+    <?php include 'includes/menu.php';?>
 </head>
 <body>
     <?php
-    include 'menu.php';
-    require 'database.php';
+    include 'includes/menu.php';
+    require 'includes/database.php';
 
     ?>
 </body>

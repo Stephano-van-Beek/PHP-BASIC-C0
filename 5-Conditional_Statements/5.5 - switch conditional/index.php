@@ -25,6 +25,7 @@
     break;
     default:
     echo "Nog even oefenen dan haal je vast alle punten!";
+    }
     ?>
 </body>
 </html>

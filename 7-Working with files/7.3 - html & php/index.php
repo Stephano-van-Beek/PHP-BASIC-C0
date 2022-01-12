@@ -7,16 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="menu">
-         <?php include 'menu.php'; ?> 
+        <div class="menu">
+         <?php include 'includes/menu.php';?>
         </div>
 
      <div id="isMeerderJarig">
         <?php
-             if($leeftijd < 18 ){
-                 echo "<h6>Je bent te jong om deze pagina te bekijken</h6>";
+            if($leeftijd < 18 ){
+                echo "<h6>Je bent te jong om deze pagina te bekijken</h6>";
                 }
         ?>
-    </div>
+     </div>
 </body>
 </html>
