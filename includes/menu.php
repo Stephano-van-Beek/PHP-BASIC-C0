@@ -8,10 +8,10 @@
     <?php include 'includes/functions.php';?>
 </head>
 <body>
-    <?php
-    include 'menu.php';
-    require 'database.php';
-
-    ?>
+    <ul>
+        <li>menu-item 1</li>
+        <li>menu-item 2</li>
+        <li>menu-item 3</li>
+    </ul>
 </body>
 </html>

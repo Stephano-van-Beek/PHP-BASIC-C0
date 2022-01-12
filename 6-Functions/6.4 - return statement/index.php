@@ -9,13 +9,17 @@
 <body>
     <?php
 
+    function geefTienProcent(){ 
+        $koopPrijs = 75;
+        $korting = 10;
+        
+        return ($koopPrijs / 100) * $korting = $antwoordineuro;
+        echo $antwoordineuro; 
+        $koopPrijs - $antwoord = $antwoordkorting;
+        echo $antwoordkorting;
+        };
 
-
-
-
-
-
-
+        
     ?>
 </body>
 </html>

@@ -9,16 +9,11 @@
 <body>
     <?php
     function telAlleWoorden(){
-        "Mijn blauwe auto is een mooie snelle wagen"
+        $string = "Mijn blauwe auto is een mooie snelle wagen";
+        echo strlen($string); // 42
+        $lengteZin = 42;
+        echo $lengteZin;
     }
-    strlen()
-    echo $lengteZin 
-
-
-
-
-
-
 
     ?>
 </body>
