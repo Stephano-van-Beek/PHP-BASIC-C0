@@ -9,6 +9,6 @@ $myNamDoges[1] =  'Snoopy';
 $myDogNames[2] =  'Bob';
 
 $myDogNames =  ['Shara', 'Snoopy', 'Bob'];
-$myDogNames[1] = '';
+$myDogNames[1] = 'Snoopy';
 
 ?>
