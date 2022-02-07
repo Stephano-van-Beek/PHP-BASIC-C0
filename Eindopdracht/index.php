@@ -2,12 +2,12 @@
 
 /*******************************************************************************************************************/
 /******************************************* OPDRACHT 1 doe je hieronder *******************************************/
-
 /* 
  * Opdracht 1: voeg hier het bestand allcoins.php in. 
  * Verder hoef je geen code te schrijven op deze pagina.
  */
-    include 'bitcoinData.php';  
+include 'bitcoinData.php';
+
 
 /*******************************************************************************************************************/
 /**************************** De code hieronder heb je nodig en hoef je niet aan te passen *************************/
@@ -27,7 +27,6 @@
                 <span>&euro; </span><input type="text" name="bitcoin_current_price" value="<?php echo getBitcoinPrice() ?>" class="form-control">
                 <small id="text" class="form-text text-muted">Laatste update: <?php echo getTime() ?> </small>
             </div>
-            <?php $button = 5; ?>
             <a href="?euro=100" class="btn btn-info p-3 m-1">&euro;100</a>
             <a href="?euro=200" class="btn btn-info p-3 m-1">&euro;200</a>
             <a href="?euro=300" class="btn btn-info p-3 m-1">&euro;300</a>
