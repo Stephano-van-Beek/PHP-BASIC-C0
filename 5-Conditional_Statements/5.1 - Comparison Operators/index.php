@@ -8,14 +8,21 @@
 </head>
 <body>
     <?php
-
-    $test1 = 12;
-    $test2 = "gewoon tekst";
-
-    $test1 == $test2;
-
-    var_dump($test1 == $test2);
-
+$_test1_ = 12;
+$_test2_ = "gewoon tekst";
+var_dump($_test1_ == $_test2_);
+echo "<br>";
+var_dump($_test1_ === $_test2_);
+echo "<br>";
+var_dump($_test1_ != $_test2_);
+echo "<br>";
+var_dump($_test1_ > $_test2_);
+echo "<br>";
+var_dump($_test1_ <> $_test2_);
+echo "<br>";
+var_dump($_test1_ >= $_test2_);
+echo "<br>";
+var_dump($_test1_ <= $_test2_);
     ?>
 </body>
 </html>

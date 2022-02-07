@@ -9,18 +9,34 @@
 <body>
     <?php
 
-    $test1 = 10;
-    $test2 = 6;
-    if($test1 == $test2) {echo "gelijk";
-        echo "ongelijk";
-        echo "identiek";
-        echo "test1 is kleiner dan test2";
-        echo "test1 is groter of gelijk aan test2";
-        echo "test1 is kleiner of gelijk aan test2";
-    }
+$_test1_ = 10;
+$_test2_ = 6;
 
-
-    //ik snap niet echt wat ik moet doen in deze opdracht graag uitleg
+if($_test1_ == $_test2_) {
+    echo "gelijk";
+}
+echo "<br>";
+if($_test1_ != $_test2_) {
+    echo "ongelijk";
+}
+if($_test1_ < $_test2_) {
+    echo "kleiner dan";
+}
+echo "<br>";
+if($_test1_ === $_test2_) {
+    echo "identiek";
+}
+echo "<br>";
+if($_test1_ > $_test2_) {
+    echo "test1 is groter dan test2";
+}
+echo "<br>";
+if($_test1_ >= $_test2_) {
+    echo "test1 is groter of gelijk aan test2  ";
+}
+echo "<br>";
+if($_test1_ <= $_test2_) {
+    echo "kleiner of gelijk aan";
     ?>
 </body>
 </html>

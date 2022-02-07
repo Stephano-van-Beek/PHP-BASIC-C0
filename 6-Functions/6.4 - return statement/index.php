@@ -9,17 +9,17 @@
 <body>
     <?php
 
-    function geefTienProcent(){ 
-        $koopPrijs = 75;
-        $korting = 10;
-        
-        return ($koopPrijs / 100) * $korting = $antwoordineuro;
-        echo $antwoordineuro; 
-        $koopPrijs - $antwoord = $antwoordkorting;
-        echo $antwoordkorting;
-        };
+    function geefTienProcent(){
+        $koopprijs = 75;
+     $korting = 10;
+        return $koopprijs = $koopprijs * ((100-$korting) / 100);
+    }
 
-        
+    function zetAllesgroot(){
+        echo 'Het totaalbedrag is ' . geefTienProcent() . ' euro';
+    }
+
+    zetAllesgroot();
     ?>
 </body>
 </html>

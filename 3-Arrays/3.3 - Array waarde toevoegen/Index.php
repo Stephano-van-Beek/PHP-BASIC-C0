@@ -1,8 +1,6 @@
 <?php
 
-$myHeroes
 $myHeroes =  ['Superman', 'Spiderman', 'Batman'];
-
-array_push($myHeroes, 'Batman');
-print_r($myHeroes, 'Batman')
+    array_push($myHeroes, 'X-men');
+    print_r($myHeroes);
 ?>

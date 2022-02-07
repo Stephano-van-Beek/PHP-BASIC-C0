@@ -1,14 +1,7 @@
 <?php
 
-//array waarde wijzigen
-$myDogNames =  ['Shara', 'Snoopy', 'Bob'];
-
- //maar je kunt ook dit doen:
-$myDogNames[0] =  'Shara';
-$myNamDoges[1] =  'Snoopy';
-$myDogNames[2] =  'Bob';
-
-$myDogNames =  ['Shara', 'Snoopy', 'Bob'];
-$myDogNames[1] = 'Snoopy';
-
+$MyDogNames = ['Snoopy', 'Shara', 'Sammy'];
+echo $MyDogNames[0];
+echo $MyDogNames[1] = 'Bob ';
+echo $MyDogNames[2];
 ?>
